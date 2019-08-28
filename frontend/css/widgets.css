@@ -1,0 +1,25 @@
+.clock {
+  font-family: 'Gloria Hallelujah';
+  width: 500px;
+  background-color: rgba(249, 166, 14, 0.94);
+}
+
+.clock-title {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.clock-info {
+  font-weight: 800;
+  font-size: 30px;
+  
+}
+
+[class^="clock-"] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clock-info, .clock-title {
+  flex-direction: column;
+}
